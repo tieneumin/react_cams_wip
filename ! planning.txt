@@ -1,0 +1,26 @@
+modules: Dashboard, Student Profile, Class Management, Attendance Tracking (!! NO RBAC)
+
+✔ CRUD student profiles; fields:
+✔ student’s name, email, IC number, date of birth, address, phone details, parent/guardian contact information
+
+✔ CRUD classes; fields: class name, description
+enable enrol
+
+record attendance via table interface
+when selecting class, system automatically uses today's date; diff date if necessary
+
+error handling: duplicate enrollments, invalid inputs, data conflicts
+
+
+Sir's clarification:
+YOU ARE CLASS ADMIN, NOT STUDENT
+attendance should be separate page (data can be [date]_[class])
+date-class filter with today as default date 
+class filter loads students who've enrolled
+dropdown of enrolled students (not text field) 
+
+
+context and perspective important for interview
+e.g.
+I wanted to solve a problem.
+I was given a challenge. Here are the requirements. I completed these requirements in [duration].

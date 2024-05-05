@@ -1,0 +1,47 @@
+https://portal.forward.edu.my/library/problem-solving-week-186291/545162/path/step/314998888/
+
+Level 2 ⭐⭐ Individual Challenge
+Challenge Title: Class Attendance Management System
+
+Challenge Objective: 
+Develop a frontend-only Class Attendance Management System that enables users to manage student profiles and class details, as well as track daily attendance.
+
+This system is intended for use in educational environments, facilitating the management of student data and class attendance without the need for backend integration. All data will be stored in the browser's local storage.
+
+Project Requirements: 
+1. Setup and Project Structure:
+Start your project using Create React App.
+Organize your application into distinct React components (Student Profile Management, Class Management, Attendance Tracking, Dashboard, etc.).
+Employ React's state management and local storage effectively to manage and persist data.
+
+2. Student Profile Management:
+Enable users to add, update, and delete student profiles.
+Manage personal information fields such as student’s name, email, IC number, date of birth, address, phone details, and parent/guardian contact information.
+Ensure all profile information is persistently stored in local storage.
+
+3. Class Management:
+Provide functionality to add, modify, and delete classes.
+Allow users to manage class details such as class name, description, etc
+Enable users to enroll students in classes.
+
+4. Attendance Tracking:
+Implement a digital system for recording attendance using a table-based interface.
+Users should be able to select a class, and the system will automatically use today's date for attendance tracking. Users can choose to select a different date if necessary.
+
+5. Dashboard:
+Design a simple dashboard that serves as a central hub with quick links to all modules (Student Profiles, Class Management, Attendance Tracking).
+
+6. Routing:
+Use React Router for smooth navigation among the different sections of the application.
+Include a Navigation Bar for easy access to various parts of the application.
+
+7. Error Handling:
+Integrate error handling to address issues such as duplicate student enrollments, invalid inputs, and data conflicts.
+
+8. User Interface:
+Create a clean, intuitive user interface.
+You may use a CSS framework such as Bootstrap or Material-UI to enhance the appearance and responsiveness of your application.
+
+Submission Criteria:
+Submit your project through a GitHub repository.
+Demonstrate your application via a live demo deployed on a platform like Netlify or Vercel.
